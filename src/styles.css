@@ -93,3 +93,11 @@ p {
   box-shadow: var(--box-shadow);
   color: white;
 }
+
+@media (max-width: 576px) {
+  .projects {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+  }
+}
